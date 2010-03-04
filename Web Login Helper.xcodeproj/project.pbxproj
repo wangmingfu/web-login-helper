@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BF70D91115619A00A3BBD4 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70C41115619A00A3BBD4 /* ASIFormDataRequest.m */; };
+		04BF70DA1115619A00A3BBD4 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70C61115619A00A3BBD4 /* ASIHTTPRequest.m */; };
+		04BF70DB1115619A00A3BBD4 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70C81115619A00A3BBD4 /* ASINetworkQueue.m */; };
+		04BF70DC1115619A00A3BBD4 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70CA1115619A00A3BBD4 /* ASINSStringAdditions.m */; };
+		04BF70DD1115619A00A3BBD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70CC1115619A00A3BBD4 /* DetailViewController.m */; };
+		04BF70DE1115619A00A3BBD4 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70CE1115619A00A3BBD4 /* InfoViewController.m */; };
+		04BF70DF1115619A00A3BBD4 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70D01115619A00A3BBD4 /* Scanner.m */; };
+		04BF70E01115619A00A3BBD4 /* TableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70D21115619A00A3BBD4 /* TableViewAppDelegate.m */; };
+		04BF70E11115619A00A3BBD4 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70D41115619A00A3BBD4 /* TextViewController.m */; };
+		04BF70E21115619A00A3BBD4 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70D61115619A00A3BBD4 /* Utility.m */; };
+		04BF70E31115619A00A3BBD4 /* WifiDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF70D81115619A00A3BBD4 /* WifiDataBase.m */; };
+		04BF71061115622900A3BBD4 /* wifidb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 04BF71051115622900A3BBD4 /* wifidb.sqlite */; };
+		04BF710B111562B700A3BBD4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF710A111562B700A3BBD4 /* libsqlite3.0.dylib */; };
+		04BF710D111562D000A3BBD4 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF710C111562D000A3BBD4 /* libz.1.2.3.dylib */; };
+		04BF710F111562EF00A3BBD4 /* libresolv.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF710E111562EF00A3BBD4 /* libresolv.9.dylib */; };
+		04BF71111115631900A3BBD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF71101115631900A3BBD4 /* Security.framework */; };
+		04BF71151115632500A3BBD4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF71141115632500A3BBD4 /* CFNetwork.framework */; };
+		04BF71191115635300A3BBD4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF71181115635300A3BBD4 /* icon.png */; };
+		04BF711B1115638300A3BBD4 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF711A1115638300A3BBD4 /* DetailView.xib */; };
+		04BF711D1115639600A3BBD4 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF711C1115639600A3BBD4 /* InfoView.xib */; };
+		04BF711F111563A100A3BBD4 /* WEP.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF711E111563A100A3BBD4 /* WEP.png */; };
+		04BF7121111563B100A3BBD4 /* WPA.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7120111563B100A3BBD4 /* WPA.png */; };
+		04BF7123111563C600A3BBD4 /* OPEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7122111563C600A3BBD4 /* OPEN.png */; };
+		04BF712B111563EB00A3BBD4 /* TextFieldController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7127111563EB00A3BBD4 /* TextFieldController.xib */; };
+		04BF712C111563EB00A3BBD4 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7129111563EB00A3BBD4 /* TextViewController.xib */; };
+		04FA92531115B35B002EB8EC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA92521115B35B002EB8EC /* WebViewController.m */; };
+		04FA92551115B379002EB8EC /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA92541115B379002EB8EC /* WebView.xib */; };
+		1D3623260D0F684500981E51 /* Web_Login_HelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Web_Login_HelperAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BF70C31115619A00A3BBD4 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		04BF70C41115619A00A3BBD4 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		04BF70C51115619A00A3BBD4 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		04BF70C61115619A00A3BBD4 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		04BF70C71115619A00A3BBD4 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		04BF70C81115619A00A3BBD4 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		04BF70C91115619A00A3BBD4 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		04BF70CA1115619A00A3BBD4 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		04BF70CB1115619A00A3BBD4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04BF70CC1115619A00A3BBD4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04BF70CD1115619A00A3BBD4 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		04BF70CE1115619A00A3BBD4 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		04BF70CF1115619A00A3BBD4 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		04BF70D01115619A00A3BBD4 /* Scanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scanner.m; sourceTree = "<group>"; };
+		04BF70D11115619A00A3BBD4 /* TableViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAppDelegate.h; sourceTree = "<group>"; };
+		04BF70D21115619A00A3BBD4 /* TableViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAppDelegate.m; sourceTree = "<group>"; };
+		04BF70D31115619A00A3BBD4 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		04BF70D41115619A00A3BBD4 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		04BF70D51115619A00A3BBD4 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		04BF70D61115619A00A3BBD4 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		04BF70D71115619A00A3BBD4 /* WifiDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiDataBase.h; sourceTree = "<group>"; };
+		04BF70D81115619A00A3BBD4 /* WifiDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiDataBase.m; sourceTree = "<group>"; };
+		04BF71051115622900A3BBD4 /* wifidb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = wifidb.sqlite; sourceTree = "<group>"; };
+		04BF710A111562B700A3BBD4 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		04BF710C111562D000A3BBD4 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		04BF710E111562EF00A3BBD4 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = usr/lib/libresolv.9.dylib; sourceTree = SDKROOT; };
+		04BF71101115631900A3BBD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04BF71141115632500A3BBD4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04BF71181115635300A3BBD4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		04BF711A1115638300A3BBD4 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		04BF711C1115639600A3BBD4 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		04BF711E111563A100A3BBD4 /* WEP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WEP.png; sourceTree = "<group>"; };
+		04BF7120111563B100A3BBD4 /* WPA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WPA.png; sourceTree = "<group>"; };
+		04BF7122111563C600A3BBD4 /* OPEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OPEN.png; sourceTree = "<group>"; };
+		04BF7128111563EB00A3BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextFieldController.xib; sourceTree = "<group>"; };
+		04BF712A111563EB00A3BBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextViewController.xib; sourceTree = "<group>"; };
+		04FA92511115B35B002EB8EC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		04FA92521115B35B002EB8EC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		04FA92541115B379002EB8EC /* WebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Web_Login_HelperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web_Login_HelperAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Web_Login_HelperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web_Login_HelperAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Web Login Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Login Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Web_Login_Helper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web_Login_Helper_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Web_Login_Helper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Web_Login_Helper-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				04BF710B111562B700A3BBD4 /* libsqlite3.0.dylib in Frameworks */,
+				04BF710D111562D000A3BBD4 /* libz.1.2.3.dylib in Frameworks */,
+				04BF710F111562EF00A3BBD4 /* libresolv.9.dylib in Frameworks */,
+				04BF71111115631900A3BBD4 /* Security.framework in Frameworks */,
+				04BF71151115632500A3BBD4 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04FA92511115B35B002EB8EC /* WebViewController.h */,
+				04FA92521115B35B002EB8EC /* WebViewController.m */,
+				04BF70C31115619A00A3BBD4 /* ASIFormDataRequest.h */,
+				04BF70C41115619A00A3BBD4 /* ASIFormDataRequest.m */,
+				04BF70C51115619A00A3BBD4 /* ASIHTTPRequest.h */,
+				04BF70C61115619A00A3BBD4 /* ASIHTTPRequest.m */,
+				04BF70C71115619A00A3BBD4 /* ASINetworkQueue.h */,
+				04BF70C81115619A00A3BBD4 /* ASINetworkQueue.m */,
+				04BF70C91115619A00A3BBD4 /* ASINSStringAdditions.h */,
+				04BF70CA1115619A00A3BBD4 /* ASINSStringAdditions.m */,
+				04BF70CB1115619A00A3BBD4 /* DetailViewController.h */,
+				04BF70CC1115619A00A3BBD4 /* DetailViewController.m */,
+				04BF70CD1115619A00A3BBD4 /* InfoViewController.h */,
+				04BF70CE1115619A00A3BBD4 /* InfoViewController.m */,
+				04BF70CF1115619A00A3BBD4 /* Scanner.h */,
+				04BF70D01115619A00A3BBD4 /* Scanner.m */,
+				04BF70D11115619A00A3BBD4 /* TableViewAppDelegate.h */,
+				04BF70D21115619A00A3BBD4 /* TableViewAppDelegate.m */,
+				04BF70D31115619A00A3BBD4 /* TextViewController.h */,
+				04BF70D41115619A00A3BBD4 /* TextViewController.m */,
+				04BF70D51115619A00A3BBD4 /* Utility.h */,
+				04BF70D61115619A00A3BBD4 /* Utility.m */,
+				04BF70D71115619A00A3BBD4 /* WifiDataBase.h */,
+				04BF70D81115619A00A3BBD4 /* WifiDataBase.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* Web_Login_HelperAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Web_Login_HelperAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Web Login Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04BF71051115622900A3BBD4 /* wifidb.sqlite */,
+				28A0AAE50D9B0CCF005BE974 /* Web_Login_Helper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04FA92541115B379002EB8EC /* WebView.xib */,
+				04BF7127111563EB00A3BBD4 /* TextFieldController.xib */,
+				04BF7129111563EB00A3BBD4 /* TextViewController.xib */,
+				04BF7122111563C600A3BBD4 /* OPEN.png */,
+				04BF7120111563B100A3BBD4 /* WPA.png */,
+				04BF711E111563A100A3BBD4 /* WEP.png */,
+				04BF711C1115639600A3BBD4 /* InfoView.xib */,
+				04BF711A1115638300A3BBD4 /* DetailView.xib */,
+				04BF71181115635300A3BBD4 /* icon.png */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Web_Login_Helper-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BF71141115632500A3BBD4 /* CFNetwork.framework */,
+				04BF71101115631900A3BBD4 /* Security.framework */,
+				04BF710E111562EF00A3BBD4 /* libresolv.9.dylib */,
+				04BF710C111562D000A3BBD4 /* libz.1.2.3.dylib */,
+				04BF710A111562B700A3BBD4 /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Web Login Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Web Login Helper" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Login Helper";
+			productName = "Web Login Helper";
+			productReference = 1D6058910D05DD3D006BFB54 /* Web Login Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Web Login Helper" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Web Login Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				04BF71061115622900A3BBD4 /* wifidb.sqlite in Resources */,
+				04BF71191115635300A3BBD4 /* icon.png in Resources */,
+				04BF711B1115638300A3BBD4 /* DetailView.xib in Resources */,
+				04BF711D1115639600A3BBD4 /* InfoView.xib in Resources */,
+				04BF711F111563A100A3BBD4 /* WEP.png in Resources */,
+				04BF7121111563B100A3BBD4 /* WPA.png in Resources */,
+				04BF7123111563C600A3BBD4 /* OPEN.png in Resources */,
+				04BF712B111563EB00A3BBD4 /* TextFieldController.xib in Resources */,
+				04BF712C111563EB00A3BBD4 /* TextViewController.xib in Resources */,
+				04FA92551115B379002EB8EC /* WebView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Web_Login_HelperAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				04BF70D91115619A00A3BBD4 /* ASIFormDataRequest.m in Sources */,
+				04BF70DA1115619A00A3BBD4 /* ASIHTTPRequest.m in Sources */,
+				04BF70DB1115619A00A3BBD4 /* ASINetworkQueue.m in Sources */,
+				04BF70DC1115619A00A3BBD4 /* ASINSStringAdditions.m in Sources */,
+				04BF70DD1115619A00A3BBD4 /* DetailViewController.m in Sources */,
+				04BF70DE1115619A00A3BBD4 /* InfoViewController.m in Sources */,
+				04BF70DF1115619A00A3BBD4 /* Scanner.m in Sources */,
+				04BF70E01115619A00A3BBD4 /* TableViewAppDelegate.m in Sources */,
+				04BF70E11115619A00A3BBD4 /* TextViewController.m in Sources */,
+				04BF70E21115619A00A3BBD4 /* Utility.m in Sources */,
+				04BF70E31115619A00A3BBD4 /* WifiDataBase.m in Sources */,
+				04FA92531115B35B002EB8EC /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04BF7127111563EB00A3BBD4 /* TextFieldController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF7128111563EB00A3BBD4 /* en */,
+			);
+			name = TextFieldController.xib;
+			sourceTree = "<group>";
+		};
+		04BF7129111563EB00A3BBD4 /* TextViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF712A111563EB00A3BBD4 /* en */,
+			);
+			name = TextViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04671B4411246322009927E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Distribution;
+		};
+		04671B4511246322009927E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yue-Hsun Lin";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Web_Login_Helper_Prefix.pch;
+				INFOPLIST_FILE = "Web_Login_Helper-Info.plist";
+				PRODUCT_NAME = "Web Login Helper";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8D0BF180-0F2A-47BD-9EE8-9D8B7EAA9444";
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Web_Login_Helper_Prefix.pch;
+				INFOPLIST_FILE = "Web_Login_Helper-Info.plist";
+				PRODUCT_NAME = "Web Login Helper";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Web_Login_Helper_Prefix.pch;
+				INFOPLIST_FILE = "Web_Login_Helper-Info.plist";
+				PRODUCT_NAME = "Web Login Helper";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yue-Hsun Lin (X6U2B9ZV7E)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16E99957-9734-4DD9-8454-650DF5A10CC4";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Web Login Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				04671B4511246322009927E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Web Login Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				04671B4411246322009927E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
